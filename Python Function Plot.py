@@ -11,7 +11,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.cm as cm
 
 
-print("Problem 1: ")
+
 
 
 x = np.arange(0,2*np.pi,0.1)
@@ -22,7 +22,7 @@ plt.plot(x,y,marker = "^", ms = "15", markevery = 1/8*np.pi  ,color = 'black', l
 plt.show()
 
 
-print ("Problem 2: ")
+
 
 M = 120
 My = -M*np.cos(45)
